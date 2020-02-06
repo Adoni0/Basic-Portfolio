@@ -1,0 +1,22 @@
+<head>
+<style>
+
+h1, h2, h4, h6{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+p{
+    color: #777777
+}
+
+body{
+    background-color: #ffffff; 
+    background-image: url('Basic-Portfolio/assets/images/morocco.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+</head>
+</style>

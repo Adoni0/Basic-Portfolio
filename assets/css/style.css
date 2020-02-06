@@ -1,5 +1,31 @@
-<head>
-<style>
+
+.index-me{
+    background-color: #4aaaa5;
+    color: white;
+    font-size: x-large;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    margin-right: 8in;
+    text-align: center;
+}
+
+h6{
+    float: right;
+    margin-top: 0;
+    margin-right: .5in;
+}
+
+#bio-me{
+    border-bottom: 6px black;
+}
+
+.index-bio{
+    float: right;
+    width: 700px;
+    margin: auto;
+    margin-right: 40px;
+}
 
 h1, h2, h4, h6{
     font-family: Georgia, 'Times New Roman', Times, serif; 
@@ -11,22 +37,55 @@ p{
 
 body{
     background-color: #ffffff; 
-    background-image: url('Basic-Portfolio/assets/images/morocco.png');
+    background-image: 'assets/images/morocco.png';
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#about-me{
+    width: 960px;
+}
+
+#self-image{
+    height: 200px; 
+    width: 200px;
+}
+
 .container{
-    width: 140px;
-    height: 140px;
+    width: 960px;
+    margin: auto;
 }
 
 .container2{
-    width: 200px;
-    height: 200px;
+    width: 960px;
+    margin: auto;
 }
 
+.image-p{
+    width: 150px;
+    height: 150px;
+}
 
+#ctc-me{
+    border-bottom: 5px black;
+    border-style: groove;
+    color: #4aaaa5;
+}
 
-</head>
-</style>
+#name-border{
+    border-style: groove;
+}
+
+#email-me{
+    border-style: groove;
+}
+
+#submit-btn{
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    margin-right: 9.3in;
+    text-align: center;
+}

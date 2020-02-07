@@ -10,14 +10,25 @@
     text-align: center;
 }
 
+#right{
+    float: right;
+    overflow: auto;
+}
+
 h6{
     float: right;
     margin-top: 0;
     margin-right: .5in;
 }
 
+#hd-abtme{
+    background-color: #ffffff;
+    padding: 5px;
+}
+
 #bio-me{
-    border-bottom: 6px black;
+    color: #4aaaa5;
+    border-bottom: 3px solid grey;
 }
 
 .index-bio{
@@ -35,11 +46,15 @@ p{
     color: #777777
 }
 
-body{
-    background-color: #ffffff; 
-    background-image: 'assets/images/morocco.png';
+body{ 
+    background-image: url(../images/memphis-colorful.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#contain-this{
+    background-color:#ffffff;
+    padding: 5px;
 }
 
 #about-me{
@@ -56,6 +71,12 @@ body{
     margin: auto;
 }
 
+#me-myself{
+    background-color: #ffffff;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
 .container2{
     width: 960px;
     margin: auto;
@@ -67,19 +88,10 @@ body{
 }
 
 #ctc-me{
-    border-bottom: 5px black;
-    border-style: groove;
+    border-bottom: 3px solid grey;
     color: #4aaaa5;
 }
-
-#name-border{
-    border-style: groove;
-}
-
-#email-me{
-    border-style: groove;
-}
-
+    
 #submit-btn{
     background-color: #4aaaa5;
     color: white;
@@ -88,4 +100,14 @@ body{
     margin: 0;
     margin-right: 9.3in;
     text-align: center;
+}
+
+textarea{
+    width: 940px;
+    height: 200px;
+}
+
+.info-input{
+    width: 940px;
+    height: 25px
 }

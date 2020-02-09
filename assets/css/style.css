@@ -4,11 +4,13 @@
     color: white;
     font-size: x-large;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     margin: 0;
     margin-right: 8in;
     text-align: center;
     margin-top: 0;
+    margin-left: 8%;
+    margin-bottom: 0%;
 }
 
 
@@ -19,14 +21,11 @@ h6{
 }
 
 #hd-abtme{
-    background-color: #ffffff;
-    padding: 5px;
-    height: 22px;
-    bottom: 0px;
-    left: 0px;
-    padding-top: 30px;
     width: 100%;
-    padding-bottom: 10px
+    margin: auto;
+    background-color: #ffffffc2;
+    padding: 5x;
+    border-style: outset;
 }
 
 #bio-me{
@@ -35,10 +34,9 @@ h6{
 }
 
 .index-bio{
-    float: right;
-    width: 700px;
+    width: 100%;
     margin: auto;
-    margin-right: 40px;
+    margin-left: -5px;
 }
 
 h1, h2, h4, h6 {
@@ -59,15 +57,14 @@ body{
 #contain-this{
     background-color:#ffffff;
     padding: 5px;
-}
-
-#about-me{
-    width: 960px;
+    margin-top: 5%;
+    border-style: outset;
 }
 
 #self-image{
     height: 200px; 
     width: 200px;
+    float: left;
 }
 
 .container{
@@ -79,14 +76,23 @@ body{
     background-color: #ffffff;
     padding-bottom: 5px;
     padding-left: 10px;
-    border-style: solid #dddddd;
+    border-style: outset;
+    height: 420px;
 }
 
-.container2{
-    width: 960px;
+#p-header{
+    width: 100%;
     margin: auto;
-    background-color: #ffffff;
-    padding: 5px;
+    background-color: #ffffffc2;
+    padding: 5x;
+}
+
+#pheader-2{
+    width: 100%;
+    margin: auto;
+    background-color: #ffffffc2;
+    padding: 5x;
+    border-style: outset;
 }
 
 .image-p{
@@ -95,7 +101,7 @@ body{
 }
 
 #ctc-me{
-    border-bottom: 3px solid grey;
+    border-bottom: 2px solid grey;
     color: #4aaaa5;
 }
     
@@ -121,11 +127,18 @@ textarea{
 
 #pdiddy{
     color: #4aaaa5;
+    border-bottom: 3px #777777;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-top: 3%;
 }
 
 #pbox{
     background-color: #ffffff;
     padding-bottom: 15px;
+    height: 500px;
+    width: 960px;
+    margin: auto;
 }
 
 .footer-bottom{
@@ -139,4 +152,45 @@ textarea{
     width: 100%;
     padding-bottom: 10px;
     border-top: 8px solid #4aaaa5;
+}
+
+.directory{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    color: grey;
+}
+
+#dart-pic{
+    margin-left: 5%;
+}
+#city-pic{
+    margin-left: 5%;
+}
+
+#game-pic{
+    position: absolute;
+    bottom: 52.5%;
+    left: 30%;
+}
+
+#dice-pic{
+    position: absolute;
+    bottom: 52.5%;
+    right: 40%;
+}
+
+#rube-pic{
+    position: absolute;
+    bottom: 25%;
+    left: 40%;
+}
+
+.wrapper-dart{
+    z-index: 2;
+    margin-left: 10%;
+    width: 100px;
+    height: 50px;
+    background-color: #4aaaa5;
+    padding: 10px;
 }

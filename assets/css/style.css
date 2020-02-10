@@ -96,8 +96,8 @@ body{
 }
 
 .image-p{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 #ctc-me{
@@ -122,7 +122,7 @@ textarea{
 
 .info-input{
     width: 940px;
-    height: 25px
+    height: 25px;
 }
 
 #pdiddy{
@@ -139,6 +139,9 @@ textarea{
     height: 500px;
     width: 960px;
     margin: auto;
+    border-style: outset;
+    margin-top: 3%;
+    position: relative;
 }
 
 .footer-bottom{
@@ -163,34 +166,99 @@ textarea{
 
 #dart-pic{
     margin-left: 5%;
+    position: absolute;
+    object-fit: contain;
+    top: 10%;
 }
 #city-pic{
-    margin-left: 5%;
+    margin-left: 10%;
+    position: absolute;
+    bottom: 10%;
+    object-fit: contain;
 }
 
 #game-pic{
     position: absolute;
-    bottom: 52.5%;
-    left: 30%;
+    top: 10%;
+    left: 35%;
+    object-fit: contain;
 }
 
 #dice-pic{
     position: absolute;
-    bottom: 52.5%;
-    right: 40%;
+    top: 10%;
+    right: 10%;
+    object-fit: contain;
 }
 
 #rube-pic{
     position: absolute;
-    bottom: 25%;
-    left: 40%;
+    bottom: 12%;
+    left: 50%;
+    object-fit: contain;
+}
+
+.image-name{
+    color: whitesmoke;
+    text-align: center;
 }
 
 .wrapper-dart{
-    z-index: 2;
-    margin-left: 10%;
-    width: 100px;
-    height: 50px;
+    z-index: 10;
+    width: 190px;
+    height: 30px;
     background-color: #4aaaa5;
-    padding: 10px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    top: 10%;
+    right: -5%;
+}
+
+.wrapper-city{
+    z-index: 10;
+    width: 150px;
+    height: 30px;
+    background-color: #4aaaa5;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    right: -12.1%;
+}
+
+.wrapper-game{
+    z-index: 10;
+    width: 190px;
+    height: 30px;
+    background-color: #4aaaa5;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    top: -6%;
+    right: -35%;
+}
+
+.wrapper-dice{
+    z-index: 10;
+    width: 190px;
+    height: 30px;
+    background-color: #4aaaa5;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    top: -14%;
+    right: -69.2%;
+}
+
+.wrapper-rube{
+    z-index: 10;
+    width: 190px;
+    height: 30px;
+    background-color: #4aaaa5;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    top: 18%;
+    right: -50%;
 }

@@ -30,13 +30,14 @@ h6{
 }
 
 #bio-box{
-    border-bottom: 3px solid rgb(196, 196, 196);
+    border-bottom: 2px solid rgb(196, 196, 196);
     padding-top: 5px;
     width: 940px;
 }
 
 #bio-me{
     color: #4aaaa5;
+    margin-left: 2%;
 }
 
 .index-bio{

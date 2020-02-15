@@ -13,13 +13,6 @@
     margin-bottom: 0%;
 }
 
-/*about/profile/contact in header*/
-h6{
-    float: right;
-    margin-top: 0;
-    margin-right: .5in;
-}
-
 /*header container id for index*/
 #hd-abtme{
     width: 100%;
@@ -192,7 +185,7 @@ textarea{
     border-top: 8px solid #4aaaa5;
 }
 
-.directory{
+.navbar-links{
     position: fixed;
     top: 50px;
     right: 100px;

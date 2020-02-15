@@ -1,4 +1,4 @@
-
+/*name in header*/
 .index-me{
     background-color: #4aaaa5;
     color: white;
@@ -13,13 +13,14 @@
     margin-bottom: 0%;
 }
 
-
+/*about/profile/contact in header*/
 h6{
     float: right;
     margin-top: 0;
     margin-right: .5in;
 }
 
+/*header container id for index*/
 #hd-abtme{
     width: 100%;
     height: 100%;
@@ -29,17 +30,20 @@ h6{
     border-style: outset;
 }
 
+/*container id for about me section*/
 #bio-box{
     border-bottom: 2px solid rgb(196, 196, 196);
     padding-top: 5px;
     width: 940px;
 }
 
+/*'About me' header*/
 #bio-me{
     color: #4aaaa5;
     margin-left: 2%;
 }
 
+/*paragraph about me*/
 .index-bio{
     width: 100%;
     margin: auto;
@@ -61,10 +65,12 @@ body{
     background-size: cover;
 }
 
+/*container id for contact info body*/
 #contain-this{
     background-color:#ffffff;
     padding: 5px;
-    margin-top: 5%;
+    margin: auto;
+    margin-top: 20px;
     border-style: outset;
 }
 
@@ -80,6 +86,7 @@ body{
     margin: auto;
 }
 
+/*conatiner id for main body of index file*/
 #me-myself{
     background-color: #ffffff;
     padding-bottom: 5px;
@@ -88,6 +95,7 @@ body{
     height: 420px;
 }
 
+/*container id for header in portfolio file*/
 #p-header{
     width: 100%;
     margin: auto;
@@ -96,6 +104,7 @@ body{
     border-style: outset;
 }
 
+/*container id for header in contact file*/
 #pheader-2{
     width: 100%;
     margin: auto;
@@ -109,10 +118,12 @@ body{
     height: 200px;
 } 
 
+/*container id for contact heading*/
 #ctc-box{
     border-bottom: 2px solid rgb(192, 190, 190);
     padding-top: 3px;
     width: 940px;
+    margin-bottom: 5px;
 }
 
 #ctc-me{
@@ -140,6 +151,7 @@ textarea{
     height: 25px;
 }
 
+/*container id for portfolio heading, bottom border was not working*/
 #pdiddy-box{
     border-bottom: 3px rgb(190, 190, 190);
     width: 940px;
@@ -154,6 +166,7 @@ textarea{
     margin-top: 3%;
 }
 
+/*conatiner id for entire portfolio body inc images*/
 #pbox{
     background-color: #ffffff;
     padding-bottom: 15px;
@@ -165,6 +178,7 @@ textarea{
     position: relative;
 }
 
+/*copyright footer*/
 .footer-bottom{
     background-color: #666667;
     height: 12px;
